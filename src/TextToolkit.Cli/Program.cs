@@ -3,7 +3,7 @@ us ing TextToolkit;
 // Использование: TextToolkit.Cli "любой текст"  либо  echo "текст" | TextToolkit.Cli
 var text = args.Length > 0 ? string.Join(' ', args) : Console.In.ReadToEnd();
 
-       Console.WriteLine($"Words:      {TextAnalyzer.CountWords(text)}");
+Console.WriteLine($"Words:      {TextAnalyzer.CountWords(text)}");
 Console.WriteLine($"Palindrome: {TextAnalyzer.IsPalindrome(text)}");
 Console.WriteLine($"Reversed:   {TextAnalyzer.ReverseWords(text)}");
 Console.WriteLine($"Slug:       {TextAnalyzer.ToSlug(text)}");
