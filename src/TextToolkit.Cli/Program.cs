@@ -1,4 +1,4 @@
-us ing TextToolkit;
+using TextToolkit;
 
 // Использование: TextToolkit.Cli "любой текст"  либо  echo "текст" | TextToolkit.Cli
 var text = args.Length > 0 ? string.Join(' ', args) : Console.In.ReadToEnd();
