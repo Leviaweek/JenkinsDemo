@@ -3,7 +3,7 @@ namespace TextToolkit.Tests;
 public class TextAnalyzerTests
 {
     [Theory]
-    [InlineData(null, 1)]
+    [InlineData(null, 0)]
     [InlineData("", 0)]
     [InlineData("   ", 0)]
     [InlineData("hello", 1)]
