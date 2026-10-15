@@ -19,4 +19,4 @@ ENV DOTNET_CLI_TELEMETRY_OPTOUT=1 \
 USER jenkins
 
 # Нужные плагины (git, github, pipeline, junit и т.д.)
-RUN jenkins-plugin-cli --plugins git github workflow-aggregator junit timestamps ws-cleanup
+RUN jenkins-plugin-cli --plugins git github workflow-aggregator junit timestamper ws-cleanup
